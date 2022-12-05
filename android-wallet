@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nuls.naboxpro">
+    package="com.nuls.shinawallet">
     <uses-permission
         android:name="android.permission.INTERNET"
         android:required="false" />
@@ -48,7 +48,7 @@
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
         android:networkSecurityConfig="@xml/network_security_config"
-        android:name="com.nuls.naboxpro.MyApplcation"
+        android:name="com.nuls.shinawallet.MyApplcation"
         android:theme="@style/AppTheme">
         <activity android:name=".ui.splash.WelcomeActivity">
             <intent-filter>
